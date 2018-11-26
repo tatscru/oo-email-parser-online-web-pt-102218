@@ -19,7 +19,9 @@ class EmailParser
     # IF we were not to write this in one line.. 
     
       email_array = @email.split(/[, ]/).uniq
-    email_array.reject! {|element| element.empty?}
-    email_array
+      email array should be split by comma space and then remove dups 
+      email_array.reject! {|element| element.empty?}
+      
+      email_array
   end 
 end 
