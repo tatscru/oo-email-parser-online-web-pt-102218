@@ -17,7 +17,5 @@ class EmailParser
     # we are parsing emails separated w/ spaces or commas or just spaces if there was not one included. 
     # secondly we are removing any duplicates 
     # IF we were not to write this in one line.. 
-    
-      email_array = @email.split(/[, ]/).uniq
   end 
 end 
