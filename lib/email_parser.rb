@@ -14,8 +14,7 @@ class EmailParser
   def parse
     # instance method
     email_array = @emails.split(/,\s|\s/).uniq
-    # we are parsing emails separated w/ spaces or commas or just spaces if there was not one included. 
+    # we are parsing emails separated w/ spaces/commas or just spaces if there was not one included. 
     # secondly we are removing any duplicates 
-    # IF we were not to write this in one line.. 
   end 
 end 
